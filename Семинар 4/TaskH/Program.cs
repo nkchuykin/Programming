@@ -11,6 +11,6 @@ class Program
     {
         Requests db = new Requests("../../words.txt");
         foreach (string word in db.Request(Console.ReadLine()))
-            Console.Write(word);
+            Console.Write(word + " ");
     }
 }
