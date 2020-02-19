@@ -11,7 +11,7 @@ public class Rat : ICloneable
         throw new NotImplementedException();
     }
 
-    internal bool GetTailLength()
+    internal int GetTailLength()
     {
         throw new NotImplementedException();
     }
