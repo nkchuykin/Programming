@@ -20,7 +20,7 @@ internal class Methods
         Student max = students[0];
         foreach (IComparable<Student> item in students)
         {
-            if (max.CompareTo((Student)item) > 0)
+            if (item.CompareTo(max) > 0)
                 max = (Student)item;
         }
         return max;
