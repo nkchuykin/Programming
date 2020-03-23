@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-class Student
+﻿class Student
 {
-    string name;
-    double temperature;
-    bool isMale;
+    public string name;
+    public double temperature;
+    public bool isMale;
 }

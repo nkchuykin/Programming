@@ -9,7 +9,8 @@ public class JSONReader
 
     public string TheSickestStreet
     {
-        get {
+        get
+        {
             throw new NotImplementedException();
         }
     }
