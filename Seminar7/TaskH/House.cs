@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-class House
+﻿class House
 {
-    string name;
-    string homeNumber;
-    Student[] students;
+    public string name;
+    public string homeNumber;
+    public Student[] students;
 }
 
